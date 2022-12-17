@@ -13,82 +13,102 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="header section">
       <div class="container">
-        <a href="">
-          <svg width="29" height="21">
+        <a class="header__link link" href="">
+          <svg class="heder__logo" width="29" height="21">
             <use href="./img/symbol-defs.svg#icon-logo"></use>
           </svg>
-          <span>Test Task</span>
+          <span class="heder__title">Test Task</span>
         </a>
       </div>
     </header>
     <main>
-      <section>
-        <h1>Do The Task And Have Fun</h1>
-        <div class="block-l">
-          <div class="cart-top-wrapper">
+      <section class="hero section">
+        <h1 class="hero__title">Do The Task And Have Fun</h1>
+        <div class="hero__block-l block-l">
+          <div class="block-l__cart-top-wrapper">
             <img src="./img/photo-1.jpg" alt="photo" />
             <div>
-              <h3>Andy</h3>
-              <p>Head Of UX Design</p>
+              <h3 class="block-l__name">Andy</h3>
+              <p class="block-l__position">Head Of UX Design</p>
+            </div>
+            <div class="block-l__text_wrapper">
+              <p class="block-l__text">
+                “The Style Of This Test Task Matches The Style That You Will Be
+                Making Real Job In.”
+              </p>
             </div>
           </div>
-          <div>
-            <p>
-              “The Style Of This Test Task Matches The Style That You Will Be
-              Making Real Job In.”
-            </p>
-          </div>
         </div>
-        <div class="block-r">
-          <p>Be Persistent & Attentive To Details</p>
-          <h2>Fonts & Colors Matter</h2>
-          <div>
-            <h3>Responsive Design</h3>
-            <p>
-              <span>$19840</span>
-              <span>+8.5%</span>
-            </p>
-            <p>You’ll Learn A Lot From This Task</p>
-          </div>
-          <div>
-            <h3>Mobile Friendly</h3>
-            <p>
-              <span>$12380</span>
-              <span>-3.2%</span>
-            </p>
-            <p>Don’t Forget About Small Devices</p>
+        <div class="hero__block-r block-r">
+          <p class="block-r__text">Be Persistent & Attentive To Details</p>
+          <div class="hero__card">
+            <h2 class="block-r__pre-title">Fonts & Colors Matter</h2>
+            <div class="block-r__wrapper">
+              <h3 class="block-r__title">Responsive Design</h3>
+              <p class="block-r__prices">
+                <span class="block-r__price">$19840</span>
+                <span class="block-r__percent">+8.5%</span>
+              </p>
+              <p class="block-r__discription">
+                You’ll Learn A Lot From This Task
+              </p>
+            </div>
+            <div class="block-r__wrapper">
+              <h3 class="block-r__title">Mobile Friendly</h3>
+              <p class="block-r__prices">
+                <span class="block-r__price">$12380</span>
+                <span class="block-r__percent">-3.2%</span>
+              </p>
+              <p class="block-r__discription">
+                Don’t Forget About Small Devices
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>What Pros Are Saying...</h2>
-          <div>
-            <ul>
-              <li>
-                <img src="./img/Ellipse1.png" alt="Nia" />
-                <h3>Nia</h3>
-                <p>“This task can be perfect for students from FIT”</p>
+      <section class="comments section">
+        <div class="comments__wrap">
+          <h2 class="comments__title">What Pros Are Saying...</h2>
+          <div class="comments__wrapper">
+            <ul class="comments__list list">
+              <li class="comments__item">
+                <img
+                  class="comments___img"
+                  src="./img/Ellipse1.png"
+                  alt="Nia"
+                />
+                <h3 class="comments__name">Nia</h3>
+                <p class="comments__text">
+                  “This task can be perfect for students from FIT”
+                </p>
               </li>
-              <li>
-                <img src="./img/Ellipse2.png" alt="Abigale" />
-                <h3>Abigale</h3>
-                <p>
+              <li class="comments__item">
+                <img
+                  class="comments-img"
+                  src="./img/Ellipse2.png"
+                  alt="Abigale"
+                />
+                <h3 class="comments__name">Abigale</h3>
+                <p class="comments__text">
                   “I am so sexy, that men are doing test tasks for me for free.”
                 </p>
               </li>
-              <li>
-                <img src="./img/Ellipse3.png" alt="Fedya" />
-                <h3>Fedya</h3>
-                <p>“Kuku Epta. EZ Task.”</p>
+              <li class="comments__item">
+                <img
+                  class="comments-img"
+                  src="./img/Ellipse3.png"
+                  alt="Fedya"
+                />
+                <h3 class="comments__name">Fedya</h3>
+                <p class="comments__text">“Kuku Epta. EZ Task.”</p>
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <section>
+      <section class="section">
         <div>
           <h2>What Other Coders Are Saying...</h2>
           <ul>
@@ -148,7 +168,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="section">
       <h2>Don’t Forget To Deploy Project To GitHub Pages</h2>
       <p>© Test Task Limited™, 2020. All rights reserved.</p>
       <a href="">Terms Of Service</a>
