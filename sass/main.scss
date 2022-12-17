@@ -1,0 +1,54 @@
+// color
+$primary-text-color: #212353;
+$accent-color: #3664d8;
+$secondary-text-color: #fbfbfb;
+$light-grey-color: #afafbd;
+$white-color: #ffffff;
+$black-color: #000000;
+$main-bg-color: #e5e5e5;
+
+// font
+$primary-fonts: 'Montserrat';
+
+// utils
+body {
+  background-color: $main-bg-color;
+  color: $primary-text-color;
+  font-family: $primary-fonts, sans-serif;
+}
+
+header {
+  background-color: $primary-white-color;
+  border-bottom: 1px solid $bdr-color-white;
+}
+
+footer {
+  background-color: $bg-color-black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
