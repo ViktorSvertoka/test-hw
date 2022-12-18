@@ -36,3 +36,8 @@
 ---
 
 9. закинуть в проект файлик - .prettierrc.json
+
+---
+
+10. макет -
+    https://www.figma.com/file/cDtKHXfNNKjeNbvokt8Inc/HTML%2FCSS%2FJS-Test-Task-V1?node-id=0%3A1&t=aGRuurHO1oHtuHgd-1
