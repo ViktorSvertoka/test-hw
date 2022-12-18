@@ -440,6 +440,8 @@ img {
 
 .reviews__img {
   margin: 15px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .reviews__text {
