@@ -472,11 +472,11 @@ img {
 }
 
 .reviews__times-stars-wrapper {
+  margin-right: 36px;
 }
 
 .reviews__times {
   margin-top: 16px;
-  margin-right: 36px;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 12px;
@@ -491,19 +491,61 @@ img {
   opacity: 0.5;
 }
 .reviews__stars {
+  display: flex;
 }
 .reviews__star {
-  border: 8px solid #ffd450;
   fill: #ffd450;
 }
+
+.reviews__star-white {
+  fill: #ffffff;
+  opacity: 0.5;
+}
+
 .footer {
   padding-top: 43px;
 }
+
 .footer__title {
+  text-align: center;
+  font-weight: 200;
+  font-size: 26.3476px;
+  line-height: 1.1;
+  color: #212353;
+  margin-bottom: 35px;
 }
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .footer__copyright {
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  color: #212353;
 }
+
+.footer__terms-wrapper {
+  padding-bottom: 34px;
+}
+
 .footer__terms {
+  font-family: 'Montserrat';
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  color: #212353;
 }
-.footer__devider {
+.footer__divider {
+  color: #212353;
+  font-weight: 200;
+  font-size: 12px;
 }
