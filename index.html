@@ -10,11 +10,16 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Test Task</title>
   </head>
   <body>
     <header class="header section">
-      <div class="container">
+      <div class="container header__link-wrapper">
         <a class="header__link link" href="">
           <svg class="heder__logo" width="29" height="21">
             <use href="./img/symbol-defs.svg#icon-logo"></use>
@@ -25,169 +30,193 @@
     </header>
     <main>
       <section class="hero section">
-        <h1 class="hero__title">Do The Task And Have Fun</h1>
-        <div class="hero__block-l block-l">
-          <div class="block-l__cart-top-wrapper">
-            <img src="./img/photo-1.jpg" alt="photo" width="" height="" />
-            <div>
-              <h3 class="block-l__name">Andy</h3>
-              <p class="block-l__position">Head Of UX Design</p>
+        <div class="container">
+          <h1 class="hero__title">
+            Do The Task <br />
+            And Have Fun
+          </h1>
+          <div class="hero__wrapper">
+            <div class="hero__block-l block-l">
+              <div class="block-l__cart-top-wrapper">
+                <div class="block-l__wrapper">
+                  <div class="block-l__img">
+                    <img
+                      src="./img/photo-1.jpg"
+                      alt="photo"
+                      width="115"
+                      height="115"
+                    />
+                  </div>
+
+                  <div class="block-l__about-person-wrapper">
+                    <h3 class="block-l__name">Andy</h3>
+                    <p class="block-l__position">Head Of UX Design</p>
+                  </div>
+                </div>
+                <div class="block-l__text_wrapper">
+                  <p class="block-l__text">
+                    “The Style Of This Test Task Matches The Style That You Will
+                    Be Making Real Job In.”
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="block-l__text_wrapper">
-              <p class="block-l__text">
-                “The Style Of This Test Task Matches The Style That You Will Be
-                Making Real Job In.”
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="hero__block-r block-r">
-          <p class="block-r__text">Be Persistent & Attentive To Details</p>
-          <div class="hero__card">
-            <h2 class="block-r__pre-title">Fonts & Colors Matter</h2>
-            <div class="block-r__wrapper">
-              <h3 class="block-r__title">Responsive Design</h3>
-              <p class="block-r__prices">
-                <span class="block-r__price">$19840</span>
-                <span class="block-r__percent">+8.5%</span>
-              </p>
-              <p class="block-r__discription">
-                You’ll Learn A Lot From This Task
-              </p>
-            </div>
-            <div class="block-r__wrapper">
-              <h3 class="block-r__title">Mobile Friendly</h3>
-              <p class="block-r__prices">
-                <span class="block-r__price">$12380</span>
-                <span class="block-r__percent">-3.2%</span>
-              </p>
-              <p class="block-r__discription">
-                Don’t Forget About Small Devices
-              </p>
+            <div class="hero__block-r block-r">
+              <p class="block-r__text">Be Persistent & Attentive To Details</p>
+              <div class="hero__card">
+                <h2 class="block-r__pre-title">Fonts & Colors Matter</h2>
+                <div class="block-r__wrapper">
+                  <h3 class="block-r__title">Responsive Design</h3>
+                  <p class="block-r__prices">
+                    <span class="block-r__price">$19840</span>
+                    <span class="block-r__percent">+8.5%</span>
+                  </p>
+                  <p class="block-r__discription">
+                    You’ll Learn A Lot From This Task
+                  </p>
+                </div>
+                <div class="block-r__wrapper">
+                  <h3 class="block-r__title">Mobile Friendly</h3>
+                  <p class="block-r__prices">
+                    <span class="block-r__price">$12380</span>
+                    <span class="block-r__percent">-3.2%</span>
+                  </p>
+                  <p class="block-r__discription">
+                    Don’t Forget About Small Devices
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section class="comments section">
-        <div class="comments__wrap">
-          <h2 class="comments__title">What Pros Are Saying...</h2>
-          <div class="comments__wrapper">
-            <ul class="comments__list list">
-              <li class="comments__item">
+        <div class="container">
+          <div class="comments__wrap">
+            <h2 class="comments__title">What Pros Are Saying...</h2>
+            <div class="comments__wrapper">
+              <ul class="comments__list list">
+                <li class="comments__item">
+                  <img
+                    class="comments___img"
+                    src="./img/Ellipse1.png"
+                    alt="Nia"
+                  />
+                  <h3 class="comments__name">Nia</h3>
+                  <p class="comments__text">
+                    “This task can be perfect for students from FIT”
+                  </p>
+                </li>
+                <li class="comments__item">
+                  <img
+                    class="comments-img"
+                    src="./img/Ellipse2.png"
+                    alt="Abigale"
+                  />
+                  <h3 class="comments__name">Abigale</h3>
+                  <p class="comments__text">
+                    “I am so sexy, that men are doing test tasks for me for
+                    free.”
+                  </p>
+                </li>
+                <li class="comments__item">
+                  <img
+                    class="comments-img"
+                    src="./img/Ellipse3.png"
+                    alt="Fedya"
+                  />
+                  <h3 class="comments__name">Fedya</h3>
+                  <p class="comments__text">“Kuku Epta. EZ Task.”</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviewes section">
+        <div class="container">
+          <div class="reviewes__wrap">
+            <h2 class="reviewes__title">What Other Coders Are Saying...</h2>
+            <ul class="reviewes__list list">
+              <li class="reviewes__item">
                 <img
-                  class="comments___img"
-                  src="./img/Ellipse1.png"
-                  alt="Nia"
+                  class="reviewes__img"
+                  src="./img/Avatar1.png"
+                  alt="John Kennedy"
                 />
-                <h3 class="comments__name">Nia</h3>
-                <p class="comments__text">
-                  “This task can be perfect for students from FIT”
-                </p>
+                <div class="reviewes__details">
+                  <h3 class="reviewes__text">
+                    Wow, this test task is absolutely amazing! Loved it!
+                  </h3>
+                  <p class="reviewes__name">John Kennedy</p>
+                </div>
+                <p class="reviewes__times">05:20</p>
+                <div class="reviewes__stars">
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </div>
               </li>
-              <li class="comments__item">
+              <li class="reviewes__item">
                 <img
-                  class="comments-img"
-                  src="./img/Ellipse2.png"
-                  alt="Abigale"
+                  class="reviewes__img"
+                  src="./img/Avatar2.png"
+                  alt="Vasiliy Igorsky"
                 />
-                <h3 class="comments__name">Abigale</h3>
-                <p class="comments__text">
-                  “I am so sexy, that men are doing test tasks for me for free.”
-                </p>
-              </li>
-              <li class="comments__item">
-                <img
-                  class="comments-img"
-                  src="./img/Ellipse3.png"
-                  alt="Fedya"
-                />
-                <h3 class="comments__name">Fedya</h3>
-                <p class="comments__text">“Kuku Epta. EZ Task.”</p>
+                <div class="reviewes__details">
+                  <h3 class="reviewes__text">
+                    Holy cow, developers rock, but I missed the 5 stars button.
+                  </h3>
+                  <p class="reviewes__name">Vasiliy Igorsky</p>
+                </div>
+                <p class="reviewes__times">14:30</p>
+                <div class="reviewes__stars">
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviewes__star" width="29" height="21">
+                    <use href="./img/symbol-defs.svg#icon-star"></use>
+                  </svg>
+                </div>
               </li>
             </ul>
           </div>
         </div>
       </section>
-      <section class="reviewes section">
-        <div class="reviewes__wrap">
-          <h2 class="reviewes__title">What Other Coders Are Saying...</h2>
-          <ul class="reviewes__list list">
-            <li class="reviewes__item">
-              <img
-                class="reviewes__img"
-                src="./img/Avatar1.png"
-                alt="John Kennedy"
-              />
-              <div class="reviewes__details">
-                <h3 class="reviewes__text">
-                  Wow, this test task is absolutely amazing! Loved it!
-                </h3>
-                <p class="reviewes__name">John Kennedy</p>
-              </div>
-              <p class="reviewes__times">05:20</p>
-              <div class="reviewes__stars">
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-              </div>
-            </li>
-            <li class="reviewes__item">
-              <img
-                class="reviewes__img"
-                src="./img/Avatar2.png"
-                alt="Vasiliy Igorsky"
-              />
-              <div class="reviewes__details">
-                <h3 class="reviewes__text">
-                  Holy cow, developers rock, but I missed the 5 stars button.
-                </h3>
-                <p class="reviewes__name">Vasiliy Igorsky</p>
-              </div>
-              <p class="reviewes__times">14:30</p>
-              <div class="reviewes__stars">
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-                <svg class="reviewes__star" width="29" height="21">
-                  <use href="./img/symbol-defs.svg#icon-star"></use>
-                </svg>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
     </main>
     <footer class="footer section">
-      <h2 class="footer__title">
-        Don’t Forget To Deploy Project To GitHub Pages
-      </h2>
-      <p class="footer__copyright">
-        © Test Task Limited™, 2020. All rights reserved.
-      </p>
-      <a class="footer__terms link" href="">Terms Of Service</a>
-      <span class="footer__devider">|</span>
-      <a class="footer__terms link" href="">Privacy Policy</a>
+      <div class="container">
+        <h2 class="footer__title">
+          Don’t Forget To Deploy Project To GitHub Pages
+        </h2>
+        <p class="footer__copyright">
+          © Test Task Limited™, 2020. All rights reserved.
+        </p>
+        <a class="footer__terms link" href="">Terms Of Service</a>
+        <span class="footer__devider">|</span>
+        <a class="footer__terms link" href="">Privacy Policy</a>
+      </div>
     </footer>
   </body>
 </html>
