@@ -434,8 +434,7 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
-
-.reviews__item:last-child {
+.reviews__item--changing-properties:last-child {
   margin-bottom: 0;
 }
 
