@@ -328,6 +328,8 @@ img {
 
 .comments__img {
   margin: 26px auto 0;
+  width: 76px;
+  height: 76px;
 }
 
 .comments__name {
@@ -442,6 +444,8 @@ img {
   margin: 15px;
   overflow: hidden;
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 .reviews__text {
